@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boutique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.sidebarBtn').click(function(){
+        $('.sidebar').toggleClass('active')
+      })
+    })
+    </script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Boutique</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button class="sidebarBtn">
+          <span></span>
+        </button>
+      </div>
+
+      <h1>GildedRose</h1>
+
+      <div class="right">
+        <div class="panier">Panier</div>
+        <div class="connexion">Connexion</div>
+      </div>
+    </header>
+
+    <div class="Accueil"></div>
+
+    <footer></footer>
+  </body>
+
+</html>
